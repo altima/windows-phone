@@ -32,15 +32,15 @@ namespace OwnCloud.Data
         }
 
 
-        public void ItemLinked(object sender, LinkUnlinkEventArgs e)
-        {
-            var last = Days.Last();
+        //public void ItemLinked(object sender, LinkUnlinkEventArgs e)
+        //{
+        //    var last = Days.Last();
             
-            if (e.ContentPresenter.Content.Equals(last))
-            {
-                Days.Add(last.AddDays(1));
-            }
-        }
+        //    if (e.ContentPresenter.Content.Equals(last))
+        //    {
+        //        Days.Add(last.AddDays(1));
+        //    }
+        //}
 
         public void AddOnTop()
         {
